@@ -1,0 +1,23 @@
+{
+  "name": "slack-bot",
+  "version": "1.0.0",
+  "description": "Simple Slack bot using NodeJS",
+  "main": "index.js",
+  "author": "neodingvn",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.5.2",
+    "express": "~4.14.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0",
+    "botkit": "0.0.15"
+  }
+}
